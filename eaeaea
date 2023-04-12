@@ -8,8 +8,8 @@ local flying = true
 local deb = true 
 local ctrl = {f = 0, b = 0, l = 0, r = 0} 
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-local maxspeed = 180
-local speed = 30
+local maxspeed = 201
+local speed = 60
 
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
